@@ -1,0 +1,20 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+CC1120/cc1120_radio.obj: ../CC1120/cc1120_radio.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"c:/ti/ccsv6/tools/compiler/msp430_4.3.3/bin/cl430" -vmspx --abi=eabi --data_model=restricted -O3 --include_path="c:/ti/ccsv6/ccs_base/msp430/include" --include_path="c:/ti/ccsv6/tools/compiler/msp430_4.3.3/include" --include_path="E:/CCS/Workspace/Outchat/driverlib/MSP430F5xx_6xx" --include_path="E:/CCS/Workspace/Outchat/USB_config" --include_path="E:/CCS/Workspace/Outchat/CC1120" --include_path="E:/CCS/Workspace/Outchat" --advice:power="all" -g --define=__MSP430F5529__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="CC1120/cc1120_radio.pp" --obj_directory="CC1120" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+CC1120/cc1120_spi.obj: ../CC1120/cc1120_spi.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"c:/ti/ccsv6/tools/compiler/msp430_4.3.3/bin/cl430" -vmspx --abi=eabi --data_model=restricted -O3 --include_path="c:/ti/ccsv6/ccs_base/msp430/include" --include_path="c:/ti/ccsv6/tools/compiler/msp430_4.3.3/include" --include_path="E:/CCS/Workspace/Outchat/driverlib/MSP430F5xx_6xx" --include_path="E:/CCS/Workspace/Outchat/USB_config" --include_path="E:/CCS/Workspace/Outchat/CC1120" --include_path="E:/CCS/Workspace/Outchat" --advice:power="all" -g --define=__MSP430F5529__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="CC1120/cc1120_spi.pp" --obj_directory="CC1120" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+
