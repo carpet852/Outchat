@@ -5,7 +5,7 @@ Outchat is a DIY project to build a communication system using RF ISM transceive
 There has been a debate about the pros & cons of spread-spectrum (i.e. LORA) VS narrow-band for long-range RF communications.  
 I picked at the time a TI CC1120 narrow-band ISM transceiver after reading a [TI white paper](https://www.ti.com/lit/wp/swry006/swry006.pdf) on the subject.
 
-## Harwdware
+## Hardware
 I assembled the hardware using a MSP430 USB development kit and a CC1120 433MHz demo board:
 - TI MSP-EXP430F5529LP USB development kit
 - Vchip CC1120 433MHz +15dBm booster pack
