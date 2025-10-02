@@ -1,8 +1,8 @@
 # Outchat
 
 ## Objective
-Outchat is a DIY project to build a communication system using RF ISM transceivers.
-There has been a debate about the pros & cons of spread-spectrum (i.e. LORA) Vs. narrow-band for long-range RF communications.
+Outchat is a DIY project to build a communication system using RF ISM transceivers.  
+There has been a debate about the pros & cons of spread-spectrum (i.e. LORA) Vs. narrow-band for long-range RF communications.  
 I picked at the time a TI CC1120 narrow-band ISM transceiver after reading a [TI white paper](https://www.ti.com/lit/wp/swry006/swry006.pdf) on the subject.
 
 ## Harwdware
@@ -11,8 +11,8 @@ I assembled the hardware using a MSP430 USB development kit and a CC1120 433MHz 
 - Vchip CC1120 433MHz +15dBm booster pack
 
 ## Firmware
-I wrote the MSP430 firmware using the IDE TI Code Composer Studio (CCS version: 6.0.1).
-The MCU firmware implements a USB CDC device that allows serial communication with a PC or smartphone.
+I wrote the MSP430 firmware using the IDE TI Code Composer Studio (CCS version: 6.0.1).  
+The MCU firmware implements a USB CDC device that allows serial communication with a PC or smartphone.  
 I configured the CC1120 registers using the TI tool [SmartRF Studio](https://www.ti.com/tool/SMARTRFTM-STUDIO).
 
 # App
