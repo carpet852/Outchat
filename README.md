@@ -2,7 +2,7 @@
 
 ## Objective
 Outchat is a DIY project to build a communication system using RF ISM transceivers.  
-I got the project idea at the time after seeing a Kickstarter project called [Gotenna](https://www.kickstarter.com/projects/gotenna/gotenna-mesh-off-grid-people-powered-connectivity).
+I got the project idea at the time after seeing a Kickstarter project called [Gotenna](https://www.kickstarter.com/projects/gotenna/gotenna-mesh-off-grid-people-powered-connectivity).  
 There has been a debate about the pros & cons of spread-spectrum (i.e. LORA) VS narrow-band for long-range RF communications.  
 I picked a TI CC1120 narrow-band ISM transceiver after reading a [TI white paper](https://www.ti.com/lit/wp/swry006/swry006.pdf) on the subject.
 
