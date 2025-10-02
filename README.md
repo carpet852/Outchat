@@ -15,8 +15,8 @@ I wrote the MSP430 firmware using the IDE TI Code Composer Studio (CCS version: 
 The MCU firmware implements a USB CDC device that allows serial communication with a PC or smartphone.  
 I configured the CC1120 registers using the TI tool [SmartRF Studio](https://www.ti.com/tool/SMARTRFTM-STUDIO).  
 
-# App
+## App
 The Android app was never finalized.
 
-# Test
+## Test
 I debugged & tested the system on a PC using [Teraterm](https://teratermproject.github.io/index-en.html).
